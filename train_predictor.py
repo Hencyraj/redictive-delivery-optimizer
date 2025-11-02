@@ -17,7 +17,7 @@ os.makedirs("model", exist_ok=True)
 os.makedirs("data", exist_ok=True)
 
 # Load dataset
-file_path = "data/orders.csv"
+file_path = "orders.csv"
 df = pd.read_csv(file_path)
 
 # Rename columns to simpler names
